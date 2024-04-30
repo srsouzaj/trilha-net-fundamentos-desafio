@@ -1,38 +1,38 @@
-# DIO - Trilha .NET - Fundamentos
-www.dio.me
+<p align="center">
+  <img alt="logo"  width="80px" height="80px" src=".github/logo.png" />
+</p>
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+## **💻** Projeto
 
-## Contexto
 Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
+A fim de consolidar ainda mais meus conhecimentos sendo alinhado com as novas e melhores práticas e tecnologias disponíveis no mundo da tecnologia, desenvolvi uma aplicação backend durante o programa de aceleração “Coding The Future Avanade - .NET Developer”, promovido pela Digital Innovation one, onde contruímos um sistema de estacionamento, utilizando C#.
 
-A classe contém três variáveis, sendo:
+## Tecnologias utilizadas
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+- C#
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+## **🚀** Como Executar
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
 
-A classe contém três métodos, sendo:
+- [Git](https://git-scm.com/)
+- [.Net Framework](https://dotnet.microsoft.com/pt-br/download/dotnet-framework)
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+Segue os comandos para baixar e executar o projeto na sua máquina:
 
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+```bash
+## Clone o projeto em sua máquina
+git clone [https://github.com/srsouzaj/trilha-net-fundamentos-desafio](https://github.com/srsouzaj/trilha-net-fundamentos-desafio
 
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+# Acessar o projeto no terminal
+$ cd trilha-net-fundamentos-desafio
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+# executar a aplicação
+$ dot run
 
+```
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/srsouzaj/06-ignite-call/blob/master/LICENSE.md) para mais detalhes.
